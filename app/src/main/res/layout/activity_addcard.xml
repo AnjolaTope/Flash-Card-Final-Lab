@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="487dp"
+        android:hint="Please Type your question here"
+        android:inputType="textMultiLine"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="379dp"
+        android:hint="Please Type your answer here"
+        android:inputType="textMultiLine"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/myBtn2"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="357dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/cancel"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/save_bottun"
+        android:visibility="visible" />
+
+
+
+
+</RelativeLayout>
